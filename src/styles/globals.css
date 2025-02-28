@@ -1,0 +1,7 @@
+.testimonials-swiper .swiper-slide {
+  transition: all 0.3s ease-in-out;
+}
+
+.testimonials-swiper .swiper-slide-active {
+  z-index: 10;
+} 
