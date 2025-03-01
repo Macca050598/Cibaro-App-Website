@@ -98,7 +98,7 @@ const Testimonials = () => {
         <div className="container relative z-2">
           <Heading
             className="md:max-w-md lg:max-w-2xl mb-16"
-            title="Join thousands of happy puppy parents"
+            title="Join thousands of happy meal planners!"
           />
 
           <div className="px-4 sm:px-8 lg:px-16">

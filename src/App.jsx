@@ -38,7 +38,7 @@ const App = () => {
         <Analytics />
         <SpeedInsights />
       </div>
-      <ProductHuntBadge />
+      {/* <ProductHuntBadge /> */}
     </>
   );
 };
