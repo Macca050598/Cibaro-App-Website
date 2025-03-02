@@ -21,7 +21,7 @@ const App = () => {
     <>
       <Helmet>
         <title>Cibaro - Tinder swipe for meal planning</title>
-        <meta name="description" content="Swipe left or right on meals with your partner. When you match, they go into your meal plan." />
+        <meta name="description" content="Swipe left or right on meals with your partner/friend. When you match, they go into your meal plan." />
         <meta name="keywords" content="meal planning, recipe swipe, food planning, meal prep, couple meal planning" />
       </Helmet>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
