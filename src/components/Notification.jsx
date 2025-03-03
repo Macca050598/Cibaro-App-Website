@@ -17,7 +17,7 @@ const Notification = ({ className, title }) => {
       />
 
       <div className="flex-1">
-        <h6 className="mb-1 font-semibold text-base text-n-17">{title}</h6>
+        <h6 className="mb-1 font-semibold text-base text-n-19">{title}</h6>
 
         <div className="flex items-center justify-between">
           <ul className="flex -m-0.5">
@@ -36,7 +36,7 @@ const Notification = ({ className, title }) => {
               </li>
             ))}
           </ul>
-          <div className="body-2 text-n-17">1m ago</div>
+          <div className="body-2 text-n-19-100">1m ago</div>
         </div>
       </div>
     </div>

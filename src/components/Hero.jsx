@@ -196,7 +196,7 @@ const Hero = () => {
           <WaitlistForm />
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
+          <div className="relative z-1 p-0.5 rounded-2xl bg-gradient-to-r from-emerald-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
             <div className="relative bg-n-19 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-19 rounded-t-[0.9rem]" />
 
@@ -441,7 +441,7 @@ const Hero = () => {
                       <span className="text-xs text-gray-500">Home</span>
                     </div>
                     <div className="flex flex-col items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                       </svg>
                       <span className="text-xs text-green-500">Discover</span>
@@ -474,8 +474,9 @@ const Hero = () => {
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
+                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex text-white"
                     title="No more 'What's for dinner?' debates!"
+            
                   />
                 </ScrollParallax>
               </div>

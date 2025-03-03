@@ -107,8 +107,8 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the app to understand and respond to voice commands, making it easier for users to input their puppy's toilet trips.",
+    title: "Dietary Preferences & Restrictions",
+    text: "Add support for dietary preferences and restrictions, allowing users to filter meals based on allergies, intolerances, or lifestyle choices.",
     date: "October 2024",
     status: "In Progress",
     imageUrl: roadmap1,
@@ -116,24 +116,24 @@ export const roadmap = [
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the app more frequently and reward you or your puppy!.",
+    title: "Recipe Collections",
+    text: "Create themed collections of recipes that users can browse and add to their swipe queue, such as 'Quick Weeknight Dinners' or 'Mediterranean Cuisine'.",
     date: "November 2024",
     status: "In Progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Puppy Potty Pal Customization",
-    text: "Allow users to customize the app's appearance and ai behavior, making it more engaging and fun to interact with.",
+    title: "Meal History & Favorites",
+    text: "Track your meal history and save favorite recipes for easy access, helping you build a personalized cookbook of meals you both love.",
     date: "August 2024",
     status: "In Progress",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the spp to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    title: "Smart Ingredient Substitutions",
+    text: "Suggest ingredient substitutions based on what you have in your pantry, helping you use what you already have and reduce food waste.",
     date: "September 2024",
     status: "In progress",
     imageUrl: roadmap4,
@@ -141,21 +141,23 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "Create a 'family' on the app to share your dog's bathroom logs and updates across multiple phones and users, keeping everyone in the loop.";
-export const integrationText = "Our smart algorithm and integration with AI learns from your puppy's routine to predict their next bathroom break.";
+  "Connect with your partner to swipe on meals together. When you both like the same dish, it's automatically added to your weekly meal plan.";
+export const integrationText = "Our smart algorithm learns your preferences over time, suggesting meals that match both your tastes for higher match rates.";
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Preference Learning",
     text: integrationText,
   },
   {
     id: "1",
-    title: "Notifications & Alerts",
+    title: "Automatic Shopping Lists",
+    text: "When your meal plan is complete, we generate a consolidated shopping list organized by grocery department for efficient shopping.",
   },
   {
     id: "2",
-    title: "Toilet Training Insights",
+    title: "Meal Scheduling",
+    text: "Assign matched meals to specific days of the week and receive reminders about prep times and cooking instructions.",
   },
 ];
 
