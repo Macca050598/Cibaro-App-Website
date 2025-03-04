@@ -82,6 +82,7 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 import appStoreLogo from"../assets/pngegg.png";
+import cibaroLogo from "../assets/cibaro_logo.png";
 export {
   brainwave,
   check,
@@ -158,5 +159,6 @@ export {
   singleAppScreenshot1,
   cockapoo,
   puppyypottypal2,
-  appStoreLogo
+  appStoreLogo,
+  cibaroLogo
 };

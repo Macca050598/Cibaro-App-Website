@@ -11,12 +11,12 @@ const Benefits = () => {
     <section id="features">
       <Helmet>
         <title>Cibaro</title>
-        <meta name="description" content="Discover the benefits of using Puppy Potty Pal for effective puppy toilet training." />
+        <meta name="description" content="Discover the benefits of using Cibaro for fun meal planning with your partner." />
       </Helmet>
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Learn Smarter, Not Harder with Puppy Potty Pal"
+          title="Plan Smarter, Not Harder with Cibaro"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
