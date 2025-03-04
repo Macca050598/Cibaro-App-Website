@@ -72,8 +72,8 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-17/90 lg:p-15">
-                <h4 className="h4 mb-4">Automatic Shopping Lists</h4>
-                <p className="body-2 mb-[3rem] text-n-1">
+                <h4 className="h4 mb-4 text-n-19">Automatic Shopping Lists</h4>
+                <p className="body-2 mb-[3rem] text-n-19">
                   Once you've matched on meals, we generate a complete shopping list organized by grocery department for efficient shopping.
                 </p>
               </div>
@@ -83,8 +83,8 @@ const Services = () => {
 
             <div className="p-4 bg-n-17 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Personalized Meal Recommendations</h4>
-                <p className="body-2 mb-[2rem] text-n-3">
+                <h4 className="h4 mb-4 text-n-19">Personalized Meal Recommendations</h4>
+                <p className="body-2 mb-[2rem] text-n-19">
                   Our AI learns your preferences over time, suggesting meals that both you and your partner are likely to enjoy.
                 </p>
 

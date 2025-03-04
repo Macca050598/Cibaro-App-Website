@@ -51,7 +51,7 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "Attributes",
+    title: "How It Works",
     url: "#how-to-use",
   },
   {
@@ -84,7 +84,13 @@ export const navigation = [
   // },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+export const heroIcons = [
+  // Food and meal planning related icons
+  homeSmile, // Home icon can represent home cooking
+  file02,    // File icon can represent recipes
+  searchMd,  // Search icon for finding meals
+  plusSquare // Plus icon for adding to meal plan
+];
 
 export const notificationImages = [notification4, notification3, notification2];
 
@@ -99,11 +105,11 @@ export const brainwaveServices = [
 ];
 
 export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
+  recording03, // Can represent recipe recording
+  recording01, // Can represent meal tracking
+  disc02,      // Can represent meal collections
+  chromecast,  // Can represent sharing with partner
+  sliders04,   // Can represent preference settings
 ];
 
 export const roadmap = [
@@ -166,56 +172,56 @@ export const collabContent = [
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
+    title: "Calendar",
     icon: figma,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
+    title: "Notes",
     icon: notion,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
+    title: "Messages",
     icon: discord,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
+    title: "Email",
     icon: slack,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
+    title: "Photos",
     icon: photoshop,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
+    title: "Shopping",
     icon: protopie,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
+    title: "Maps",
     icon: framer,
     width: 26,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
+    title: "Reminders",
     icon: raindrop,
     width: 38,
     height: 32,
@@ -226,37 +232,42 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "Free version of Puppy Potty Pal..",
+    description: "Free version with essential meal planning features.",
     price: "0",
     features: [
-      "Log potty times for 1 dog",
-      "Daily predictions for potty tracking",
-      "Access to social media features (upload photos, like other users' pictures)",
-      "Ad-supported",
+      "Swipe on up to 20 meals per week",
+      "Match with one partner",
+      "Basic weekly meal plan",
+      "Simple shopping list generation",
+      "Ad-supported experience",
     ],
   },
   {
     id: "1",
     title: "Premium Plan",
-    description: "Get the premium plan of Puppy Potty Pal..",
+    description: "Enhanced features for serious meal planners.",
     price: "9.99",
     features: [
-      "Log potty times for unlimited dogs",
-      "AI predictions and recommendations from Arlo",
-      "Family sharing: Sync your dog's potty data with multiple users/devices",
-      "Custom notifications for potty breaks",
-      "Add free experience",
-      "Priority access to new features and updates",
+      "Unlimited meal swiping",
+      "Connect with multiple household members",
+      "Advanced meal filtering by dietary preferences",
+      "Detailed nutritional information",
+      "Custom recipe collections",
+      "Ad-free experience",
+      "Priority access to new features",
     ],
   },
   {
     id: "2",
     title: "Lifetime Plan",
-    description: "Get access to Puppy Potty Pal forever with the one time fee!",
-    price: "49.99",
+    description: "One-time payment for lifetime access to all features.",
+    price: "99.99",
     features: [
-      "All features of the Premium Plan with no ongoing subscription",
-      "Lifetime access to any future feature updates and improvements",
+      "All Premium Plan features",
+      "Lifetime access to future updates",
+      "Recipe import from external websites",
+      "Meal history and analytics",
+      "Priority customer support",
     ],
   },
 ];
@@ -317,13 +328,25 @@ export const benefits = [
 
 export const socials = [
   {
-   id: "1",
+    id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "https://x.com/PuppyPottyPal",
-   }
+    url: "https://twitter.com/CibaroApp",
+  },
+  {
+    id: "2",
+    title: "Instagram",
+    iconUrl: instagram,
+    url: "https://instagram.com/CibaroApp",
+  },
+  {
+    id: "0",
+    title: "Facebook",
+    iconUrl: facebook,
+    url: "https://facebook.com/CibaroApp",
+  },
   // {
-  //   id: "0",
+  //   id: "4",
   //   title: "Discord",
   //   iconUrl: discordBlack,
   //   url: "#",
