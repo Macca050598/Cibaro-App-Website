@@ -91,9 +91,11 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Predicts when your puppy will next need the toilet",
-  "Advice on training dependent on toilet trip results",
-  "Overall training help",
+  "Swipe-based meal selection for couples",
+  "Automatic weekly meal plan generation",
+  "Smart shopping lists organized by grocery department",
+  "Personalized meal recommendations based on preferences",
+  "Recipe details with prep time, cook time, and nutrition info"
 ];
 
 export const brainwaveServicesIcons = [
